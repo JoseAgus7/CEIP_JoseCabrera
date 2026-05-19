@@ -1,4 +1,5 @@
 import CardEjemplo from '@/components/cards/CardEjemplo';
+import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 
 // ════════════════════════════════════════════════════════════
 //  📌  REGISTRO DE TARJETAS
@@ -12,7 +13,7 @@ import CardEjemplo from '@/components/cards/CardEjemplo';
 
 // ↓ AÑADE TU <Card... /> EN LA LISTA ↓
 const tarjetas = [
-  <CardEjemplo key="ejemplo" />,
+  <CardJoseAgustin key="jose-agustin" />,
   // <CardTuNombre key="tu-nombre" />,
 ];
 
@@ -21,7 +22,7 @@ export default function Home() {
     <>
       <header>
         <div className="logo">🐙</div>
-        <h1>DAW1 — Nuestro Equipo</h1>
+        <h1> CEIP Jose Cabrera - Curso Git</h1>
         <p>
           Web colaborativa hecha con Next.js. Cada tarjeta la añadió un
           compañero en su propia rama y se integró con una Pull Request.
