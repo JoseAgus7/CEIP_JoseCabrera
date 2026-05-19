@@ -20,7 +20,7 @@ link activo y badges opcionales en algunos enlaces.
 
 **1. Sincroniza tu fork** (para traer la guía nueva y lo último de JoseAgus7):
 
-1. Ve a tu fork: `https://github.com/TU_USUARIO/CEIP_Jose_Cabrera`.
+1. Ve a tu fork: `https://github.com/TU_USUARIO/CEIP_JoseCabrera`.
 2. Pulsa **Sync fork** (arriba a la derecha) → **Update branch**.
 3. Verifica que `main` ya está al día con JoseAgus7.
 
@@ -31,17 +31,17 @@ link activo y badges opcionales en algunos enlaces.
 6. Ellos tienen que **aceptar la invitación** (les llega por email).
 
 > ⚠️ Si todavía no tienes fork (no hiciste la Parte 1), hazlo ahora:
-> ve a <https://github.com/JoseAgus7/CEIP_Jose_Cabrera> → **Fork** → **Create fork**.
+> ve a <https://github.com/JoseAgus7/CEIP_JoseCabrera> → **Fork** → **Create fork**.
 
 ### Todos los miembros del equipo (incluido el líder)
 
 ```bash
 # Clona el fork del LÍDER del equipo (sustituye LIDER_USUARIO)
-git clone https://github.com/LIDER_USUARIO/CEIP_Jose_Cabrera.git
-cd CEIP_Jose_Cabrera/daw1-next
+git clone https://github.com/LIDER_USUARIO/CEIP_JoseCabrera.git
+cd CEIP_JoseCabrera/daw1-next
 
 # Conecta al repositorio de JoseAgus7 como upstream
-git remote add upstream https://github.com/JoseAgus7/CEIP_Jose_Cabrera.git
+git remote add upstream https://github.com/JoseAgus7/CEIP_JoseCabrera.git
 
 # Instala dependencias y arranca
 pnpm install
@@ -137,13 +137,13 @@ git commit -m "feat(nav): añadir [lo que has hecho]"
 git push origin feat/nav-XXXX
 ```
 
-En GitHub, dentro del **fork del equipo** (`LIDER_USUARIO/CEIP_Jose_Cabrera`):
+En GitHub, dentro del **fork del equipo** (`LIDER_USUARIO/CEIP_JoseCabrera`):
 
 1. Verás banner "Compare & pull request" → clic.
 2. **Comprueba los 4 campos** (todo dentro del fork del equipo):
-   - **base repository:** `LIDER_USUARIO/CEIP_Jose_Cabrera`
+   - **base repository:** `LIDER_USUARIO/CEIP_JoseCabrera`
    - **base:** `team/07-nav`
-   - **head repository:** `LIDER_USUARIO/CEIP_Jose_Cabrera`
+   - **head repository:** `LIDER_USUARIO/CEIP_JoseCabrera`
    - **compare:** `feat/nav-XXXX`
 3. Asigna a un compañero del equipo como **reviewer**.
 4. Cuando apruebe → **Merge**.
@@ -169,9 +169,9 @@ Después en GitHub, desde el fork del equipo:
 1. Ve a la rama `team/07-nav` en el fork.
 2. Pulsa **Contribute** → **Open pull request**.
 3. **Comprueba los 4 campos**:
-   - **base repository:** `JoseAgus7/CEIP_Jose_Cabrera`
+   - **base repository:** `JoseAgus7/CEIP_JoseCabrera`
    - **base:** `main`
-   - **head repository:** `LIDER_USUARIO/CEIP_Jose_Cabrera`
+   - **head repository:** `LIDER_USUARIO/CEIP_JoseCabrera`
    - **compare:** `team/07-nav`
 4. Título: `team/07-nav: Navigation Menu`.
 5. **Create pull request**.

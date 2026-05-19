@@ -145,9 +145,9 @@ Con todo instalado, sigue estos pasos:
 ### 1. Haz tu fork del repositorio de JoseAgus7
 
 1. Inicia sesión en [github.com](https://github.com).
-2. Abre <https://github.com/JoseAgus7/CEIP_Jose_Cabrera>.
+2. Abre <https://github.com/JoseAgus7/CEIP_JoseCabrera>.
 3. Pulsa **Fork** (arriba a la derecha) → **Create fork**.
-4. Ya tienes tu copia en `https://github.com/TU_USUARIO/CEIP_Jose_Cabrera`.
+4. Ya tienes tu copia en `https://github.com/TU_USUARIO/CEIP_JoseCabrera`.
 
 > 💡 Esto solo se hace **una vez por persona**. Si JoseAgus7 sube cosas más
 > tarde, **NO vuelvas a forkear** — usa **Sync fork** desde GitHub.
@@ -156,11 +156,11 @@ Con todo instalado, sigue estos pasos:
 
 ```bash
 # Sustituye TU_USUARIO por tu nombre de usuario de GitHub
-git clone https://github.com/TU_USUARIO/CEIP_Jose_Cabrera.git
-cd CEIP_Jose_Cabrera/daw1-next
+git clone https://github.com/TU_USUARIO/CEIP_JoseCabrera.git
+cd CEIP_JoseCabrera/daw1-next
 
 # Conecta también al repositorio de JoseAgus7 como 'upstream'
-git remote add upstream https://github.com/JoseAgus7/CEIP_Jose_Cabrera.git
+git remote add upstream https://github.com/JoseAgus7/CEIP_JoseCabrera.git
 
 # Comprueba que tienes los dos remotes
 git remote -v
@@ -278,12 +278,12 @@ git push -u origin feature/tu-nombre-page
 
 ## 🔀 Abrir Pull Request (desde tu fork a JoseAgus7)
 
-1. Ve a **tu fork** en GitHub: `https://github.com/TU_USUARIO/CEIP_Jose_Cabrera`.
+1. Ve a **tu fork** en GitHub: `https://github.com/TU_USUARIO/CEIP_JoseCabrera`.
 2. Verás banner amarillo **"Compare & pull request"** → clic.
 3. **⚠️ Comprueba los 4 campos** (GitHub a veces los rellena mal):
-   - **base repository**: `JoseAgus7/CEIP_Jose_Cabrera` (el repositorio de JoseAgus7)
+   - **base repository**: `JoseAgus7/CEIP_JoseCabrera` (el repositorio de JoseAgus7)
    - **base**: `main`
-   - **head repository**: `TU_USUARIO/CEIP_Jose_Cabrera` (tu fork)
+   - **head repository**: `TU_USUARIO/CEIP_JoseCabrera` (tu fork)
    - **compare**: `feature/tu-nombre`
 4. Título descriptivo + descripción breve.
 5. Pulsa **Create pull request**.
@@ -378,7 +378,7 @@ Mira la sección **Resolver conflictos** más arriba.
 
 ### "He abierto la PR contra mi propio fork en vez de contra JoseAgus7"
 En GitHub, cierra esa PR y abre una nueva desde tu fork eligiendo
-`base repository: JoseAgus7/CEIP_Jose_Cabrera`.
+`base repository: JoseAgus7/CEIP_JoseCabrera`.
 
 ### "Estoy en mitad de un merge y quiero salir"
 ```bash

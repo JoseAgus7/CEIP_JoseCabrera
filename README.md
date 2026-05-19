@@ -12,10 +12,10 @@ Necesitas tener **Node.js 18+**, **Git** y una **cuenta de GitHub**.
 ### 1. Haz tu fork (una sola vez)
 
 1. Inicia sesión en [github.com](https://github.com).
-2. Abre el repositorio de JoseAgus7: <https://github.com/JoseAgus7/CEIP_Jose_Cabrera>.
+2. Abre el repositorio de JoseAgus7: <https://github.com/JoseAgus7/CEIP_JoseCabrera>.
 3. Pulsa el botón **Fork** (arriba a la derecha).
 4. Pulsa **Create fork** (deja las opciones por defecto).
-5. Ahora tienes tu copia en `https://github.com/TU_USUARIO/CEIP_Jose_Cabrera`.
+5. Ahora tienes tu copia en `https://github.com/TU_USUARIO/CEIP_JoseCabrera`.
 
 > 💡 **No vuelvas a forkear** si JoseAgus7 sube cosas después. Para
 > traértelas usa el botón **Sync fork** desde tu fork en GitHub.
@@ -24,11 +24,11 @@ Necesitas tener **Node.js 18+**, **Git** y una **cuenta de GitHub**.
 
 ```bash
 # Clona TU fork (sustituye TU_USUARIO por tu usuario de GitHub)
-git clone https://github.com/TU_USUARIO/CEIP_Jose_Cabrera.git
-cd CEIP_Jose_Cabrera
+git clone https://github.com/TU_USUARIO/CEIP_JoseCabrera.git
+cd CEIP_JoseCabrera
 
 # Conecta también al repositorio de JoseAgus7 como 'upstream'
-git remote add upstream https://github.com/JoseAgus7/CEIP_Jose_Cabrera.git
+git remote add upstream https://github.com/JoseAgus7/CEIP_JoseCabrera.git
 
 # Comprueba que tienes los 2 remotes
 git remote -v
@@ -129,12 +129,12 @@ vuestras tarjetas:
 
 ## 🔀 Abrir Pull Request (desde tu fork al repositorio de JoseAgus7)
 
-1. Ve a **tu fork** en GitHub: `https://github.com/TU_USUARIO/CEIP_Jose_Cabrera`.
+1. Ve a **tu fork** en GitHub: `https://github.com/TU_USUARIO/CEIP_JoseCabrera`.
 2. Pulsa el banner amarillo **"Compare & pull request"**.
 3. **Comprueba los 4 campos** (a veces GitHub se confunde):
-   - **base repository**: `JoseAgus7/CEIP_Jose_Cabrera` (el de JoseAgus7)
+   - **base repository**: `JoseAgus7/CEIP_JoseCabrera` (el de JoseAgus7)
    - **base**: `main`
-   - **head repository**: `TU_USUARIO/CEIP_Jose_Cabrera` (tu fork)
+   - **head repository**: `TU_USUARIO/CEIP_JoseCabrera` (tu fork)
    - **compare**: `feature/tu-nombre`
 4. Título descriptivo + descripción breve.
 5. Pulsa **Create pull request**.
