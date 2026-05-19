@@ -5,7 +5,8 @@ export default function CardPedroRuben() {
       <h3>Pedro Ruben</h3>
       <p className="rol">Alumno DAW1</p>
       <p className="bio">
-        Aprendiendo Git y GitHub con el equipo del CEIP Jose Cabrera.
+        Jose Mari, Chema para los amigos, es el mejor profesor de DAW.
+        Deja de leer los correos de Yahoo.
       </p>
       <div className="tags">
         <span>Git</span>
