@@ -1,3 +1,4 @@
+import CardTuNombre from '@/components/cards/CardAbraham';
 import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 
@@ -14,7 +15,7 @@ import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 // ↓ AÑADE TU <Card... /> EN LA LISTA ↓
 const tarjetas = [
   <CardJoseAgustin key="jose-agustin" />,
-  // <CardTuNombre key="tu-nombre" />,
+  <CardTuNombre key="Abraham" />,
 ];
 
 export default function Home() {
