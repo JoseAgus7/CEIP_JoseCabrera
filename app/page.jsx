@@ -1,5 +1,4 @@
 import CardTuNombre from '@/components/cards/CardAbraham';
-import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardEjemplo from '@/components/cards/CardHugo';
 
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
