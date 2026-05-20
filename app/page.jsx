@@ -1,3 +1,4 @@
+feature/conflicto
 import CardTuNombre from '@/components/cards/CardJuanfran';   
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 
@@ -14,8 +15,10 @@ import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 // ↓ AÑADE TU <Card... /> EN LA LISTA ↓
 const tarjetas = [
   <CardJoseAgustin key="jose-agustin" />,
-  <CardJuanfran key="juanfran" />,
+  <CardJuanfran key="tu-juanfran" />,
   // <CardTuNombre key="tu-nombre" />,
+  <CardTuNombre key="Abraham" />,
+  <CardPedro key="pedro" />,
 ];
 
 export default function Home() {
