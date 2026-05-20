@@ -1,4 +1,4 @@
-import CardTuNombre from '@/components/cards/CardAbraham';
+import CardAbraham from '@/components/cards/CardAbraham';
 import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 import CardPedro from '@/components/cards/CardPedro';
