@@ -1,6 +1,6 @@
 import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
-
+import CardArturo from '@/components/cards/CardArturo';
 // ════════════════════════════════════════════════════════════
 //  📌  REGISTRO DE TARJETAS
 //  Aquí cada alumno importa SU componente arriba y lo añade
