@@ -1,6 +1,7 @@
 import CardTuNombre from '@/components/cards/CardAbraham';
 import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
+import CardArturo from '@/components/cards/CardArturo';
 import CardPedro from '@/components/cards/CardPedro';
 import CardJuanSilva from '@/components/cards/CardJuanSilva';
 // ════════════════════════════════════════════════════════════
