@@ -3,10 +3,9 @@ export default function CardEjemplo() {
     <div className="tarjeta">
       <span className="avatar">🧑‍🏫</span>
       <h3>Profe de ejemplo</h3>
-      <p className="rol">Instructor del taller</p>
+      <p className="rol">Desarrollador</p>
       <p className="bio">
-        Tarjeta de referencia. Copia este componente, renómbralo a
-        CardTuNombre.jsx y modifícalo con tus datos.
+        2x15
       </p>
       <div className="tags">
         <span>Git</span>
