@@ -1,7 +1,7 @@
-export default function CardEjemplo() {
+export default function CardPedro() {
   return (
     <div className="tarjeta">
-      <span className="avatar">🧑‍🏫</span>
+      <span className="avatar">🤓</span>
       <h3>Pedro</h3>
       <p className="rol">Alumno Primero DAW</p>
       <p className="bio">Compartir mi pantalla, es mi deber</p>
