@@ -3,6 +3,7 @@ import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 import CardPedro from '@/components/cards/CardPedro';
 import CardJuanSilva from '@/components/cards/CardJuanSilva';
+import { Stats } from '@/components';
 // ════════════════════════════════════════════════════════════
 //  📌  REGISTRO DE TARJETAS
 //  Aquí cada alumno importa SU componente arriba y lo añade
@@ -38,6 +39,7 @@ export default function Home() {
       <main>
         <p className="section-title">👥 El equipo</p>
 
+       <Stats highlight={1} />
         <div className="grid">
           {tarjetas}
           <div className="placeholder">
