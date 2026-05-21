@@ -1,5 +1,6 @@
 import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
+import CardAlbertoFalcon from '@/components/cards/CardAlbertoFalcon';
 
 // ════════════════════════════════════════════════════════════
 //  📌  REGISTRO DE TARJETAS
@@ -14,7 +15,7 @@ import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 // ↓ AÑADE TU <Card... /> EN LA LISTA ↓
 const tarjetas = [
   <CardJoseAgustin key="jose-agustin" />,
-  // <CardTuNombre key="tu-nombre" />,
+  <CardTuNombre key="alberto-falcon" />,
 ];
 
 export default function Home() {
