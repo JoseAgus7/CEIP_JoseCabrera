@@ -36,7 +36,8 @@ export default function Home() {
         <span className="badge">✅ Hecho con Git & GitHub · Next.js 14</span>
       </header>
 
-      <main>
+
+      <main> 
         <p className="section-title">👥 El equipo</p>
 
         <div className="grid">

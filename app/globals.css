@@ -228,3 +228,50 @@ footer a:hover { text-decoration: underline; }
   }
 }
 
+/* ─── Stats grid ─────────────────────────────── */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.stats-item {
+  background: var(--background-secondary);   /* ajusta a tus vars de Next.js */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stats-item:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.stats-item.highlight {
+  background: #e6f1fb;
+  border: 2px solid #185fa5;
+}
+
+.stats-icon {
+  font-size: 28px;
+  color: #888;
+}
+
+.stats-item.highlight .stats-icon {
+  color: #185fa5;
+}
+
+.stats-num {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.stats-item.highlight .stats-num {
+  color: #0c447c;
+}
