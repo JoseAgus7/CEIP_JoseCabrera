@@ -3,8 +3,9 @@ import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 import CardPedro from '@/components/cards/CardPedro';
 import CardJuanSilva from '@/components/cards/CardJuanSilva';
-import Hero from '@/components/Hero';
+import CardArturo from '@/components/cards/CardArturo';
 
+import Hero from '@/components/Hero';
 // ════════════════════════════════════════════════════════════
 //  📌  REGISTRO DE TARJETAS
 //  Aquí cada alumno importa SU componente arriba y lo añade
