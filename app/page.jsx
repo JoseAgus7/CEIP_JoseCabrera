@@ -4,6 +4,8 @@ import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 import CardPedro from '@/components/cards/CardPedro';
 import CardJuanSilva from '@/components/cards/CardJuanSilva';
 import CardArturo from '@/components/cards/CardArturo';
+
+import Hero from '@/components/Hero';
 // ════════════════════════════════════════════════════════════
 //  📌  REGISTRO DE TARJETAS
 //  Aquí cada alumno importa SU componente arriba y lo añade
@@ -35,9 +37,8 @@ export default function Home() {
         </p>
         <span className="badge">✅ Hecho con Git & GitHub · Next.js 14</span>
       </header>
-
-
-      <main> 
+      <Hero course="DAW1" />
+      <main>
         <p className="section-title">👥 El equipo</p>
 
         <div className="grid">
